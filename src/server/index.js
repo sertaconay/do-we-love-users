@@ -18,7 +18,7 @@ mongoose.connection.once('open', () => {
   console.log('Database connection established...');
 });
 mongoose.connection.on('error', (error) => {
-  console.log('hmm, WHAT!?', error);
+  console.log('What is this?', error);
 });
 
 const init = async () => {
